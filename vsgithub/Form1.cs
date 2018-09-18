@@ -24,7 +24,8 @@ namespace vsgithub
 
         private void Form1_Load(object sender, EventArgs e)
         {
-        //    int target = -5;
+            int target = 5;
+            target = 3;
         //    int num = 3;
 
         //    target = -num;  // Noncompliant; target = -3. Is that really what's meant?
