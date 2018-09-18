@@ -48,7 +48,7 @@ namespace vsgithub
             var t_goto = new SonarTest();
       
             t_goto.T_Goto();
-
+            return;
             switch (1)
             {
                 case 0: // Noncompliant: 5 statements in the case
