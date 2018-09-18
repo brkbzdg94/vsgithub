@@ -45,21 +45,24 @@ namespace vsgithub
 
         private void button3_Click(object sender, EventArgs e)
         {
-//            var t_goto = new SonarTest();
-      
-//            t_goto.T_Goto();
-//            return;
-//            switch (1)
-//            {
-//                case 0: // Noncompliant: 5 statements in the case
-//                    t_goto.T_Goto();
-//                    t_goto.T_Goto();
-//                    t_goto.T_Goto();
-                  
-//                    break;
-//                case 1:
-//                    break;
-//}
+            var t_goto = new SonarTest();
+
+            t_goto.T_Goto();
+            return;
+            switch (1)
+            {
+                case 0: // Noncompliant: 5 statements in the case
+                    t_goto.T_Goto();
+                    t_goto.T_Goto();
+                    t_goto.T_Goto();
+                    t_goto.T_Goto();
+                    t_goto.T_Goto();
+                    t_goto.T_Goto();
+
+                    break;
+                case 1:
+                    break;
+            }
         }
     }
 }
