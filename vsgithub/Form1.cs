@@ -24,11 +24,11 @@ namespace vsgithub
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            int target = -5;
-            int num = 3;
+        //    int target = -5;
+        //    int num = 3;
 
-            target = -num;  // Noncompliant; target = -3. Is that really what's meant?
-            target = +num; // Noncompliant; target = 3
+        //    target = -num;  // Noncompliant; target = -3. Is that really what's meant?
+        //    target = +num; // Noncompliant; target = 3
 
 
             //var s = "foo";
@@ -45,21 +45,21 @@ namespace vsgithub
 
         private void button3_Click(object sender, EventArgs e)
         {
-            var t_goto = new SonarTest();
+//            var t_goto = new SonarTest();
       
-            t_goto.T_Goto();
-            return;
-            switch (1)
-            {
-                case 0: // Noncompliant: 5 statements in the case
-                    t_goto.T_Goto();
-                    t_goto.T_Goto();
-                    t_goto.T_Goto();
+//            t_goto.T_Goto();
+//            return;
+//            switch (1)
+//            {
+//                case 0: // Noncompliant: 5 statements in the case
+//                    t_goto.T_Goto();
+//                    t_goto.T_Goto();
+//                    t_goto.T_Goto();
                   
-                    break;
-                case 1:
-                    break;
-}
+//                    break;
+//                case 1:
+//                    break;
+//}
         }
     }
 }
