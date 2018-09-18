@@ -42,5 +42,12 @@ namespace vsgithub
         {
             MessageBox.Show("Güle Güle");
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var t_goto = new SonarTest();
+            return;
+            t_goto.T_Goto();
+        }
     }
 }
