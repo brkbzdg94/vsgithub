@@ -24,7 +24,10 @@ namespace vsgithub
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            var target = -5; var num = 3;
 
+            target = -num;  // Noncompliant; target = -3. Is that really what's meant?
+            target = +num; // Noncompliant; target = 3
         }
 
         private void button2_Click(object sender, EventArgs e)
